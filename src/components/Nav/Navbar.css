@@ -38,7 +38,7 @@
     transition: all .5s;
 }
 
-@media (max-width:420px){
+@media (max-width:600px){
 
     .navContainer h1{
         display: none;

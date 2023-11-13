@@ -33,7 +33,7 @@
 }
 
 
-@media(min-width:421px){
+@media(min-width:600px){
     .contactContainer{
         width: 25%;
         display: flex;
