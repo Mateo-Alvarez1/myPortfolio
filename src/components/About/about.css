@@ -33,8 +33,13 @@
     color: #9465da;
 }
 
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #about button{
-    margin-left: 100px;
     width: 200px;
     margin-top: 30px;
     padding: 10px;
@@ -60,12 +65,5 @@
     #about{
         align-items: center;
         margin-top: 150px;
-    }
-
-    #about button{
-        margin-left:0px ;
-    }
-
-  
-    
+    }   
 }
