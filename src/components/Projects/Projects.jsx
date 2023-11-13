@@ -1,5 +1,8 @@
 import React from 'react'
 import './Projects.css'
+import dental from '../../assets/dentalClinic.png'
+import rental from '../../assets/rentalInstruments.png'
+
 
 const projects = [
     {
@@ -8,7 +11,7 @@ const projects = [
         description:"Patient shift management system " , 
         github: "https://github.com/Mateo-Alvarez1/DentalClinic",
         demo: "",
-        img: '/src/assets/dentalClinic.png',
+        img: dental,
     },
     {
         id: Math.random()*3 ,
@@ -16,7 +19,7 @@ const projects = [
         description:"Instrument reservation system, customer and product management" , 
         github: "https://github.com/Mateo-Alvarez1/ProyectoIntegrador-Grupo6",
         demo: "",
-        img: '/src/assets/rentalInstruments.png',
+        img: rental,
     }
 
 ]
