@@ -1,0 +1,70 @@
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.aboutContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 480px;
+    padding: 20px 40px;
+    margin: 0px 20px;
+    box-shadow: 5px 5px 50px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+
+.subtitles{
+    color: #9465da;
+    text-decoration:underline 4px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aboutContainer span{
+    color: #9465da;
+}
+
+#about button{
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #9465da;
+    border-radius: 5px;
+    color: #9465da;
+}
+
+#about button:hover{
+  background-color: #9465da;
+  color: #FFFFFF;
+  transform: scale(1.05);
+  transition: all .5s;
+}
+
+@media (min-width:421px){
+    .aboutContainer{
+        width: 40%;
+        height: 280px;
+    }
+
+    #about{
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    #about button{
+        margin-left:0px ;
+    }
+
+  
+    
+}
