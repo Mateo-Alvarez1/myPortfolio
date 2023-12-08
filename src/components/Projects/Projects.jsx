@@ -1,7 +1,6 @@
-import React from 'react'
 import './Projects.css'
 import dental from '../../assets/dentalClinic.png'
-import rental from '../../assets/rentalInstruments.png'
+import rental from '../../assets/rental.png'
 
 
 const projects = [
@@ -18,7 +17,7 @@ const projects = [
         name: "Rental Instruments" ,
         description:"Instrument reservation system, customer and product management" , 
         github: "https://github.com/Mateo-Alvarez1/ProyectoIntegrador-Grupo6",
-        demo: "",
+        demo: "http://pitchpleasefront.s3-website-us-east-1.amazonaws.com/",
         img: rental,
     }
 
