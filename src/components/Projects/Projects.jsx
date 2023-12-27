@@ -9,7 +9,6 @@ const projects = [
         name: "Dental Clinic" ,
         description:"Patient shift management system " , 
         github: "https://github.com/Mateo-Alvarez1/DentalClinic",
-        demo: "",
         img: dental,
     },
     {
@@ -17,7 +16,6 @@ const projects = [
         name: "Rental Instruments" ,
         description:"Instrument reservation system, customer and product management" , 
         github: "https://github.com/Mateo-Alvarez1/ProyectoIntegrador-Grupo6",
-        demo: "http://pitchpleasefront.s3-website-us-east-1.amazonaws.com/",
         img: rental,
     }
 
@@ -36,7 +34,6 @@ export const Projects = () => {
                         <p>{item.description}</p>
                         <div className='buttons'>
                         <a href={item.github} target='blank'> <button>Github</button></a>
-                        <a href={item.demo} target='blank'><button>Demo</button></a>
                         </div> 
                     </div>
                 <div>
